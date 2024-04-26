@@ -9,9 +9,10 @@
    <!-- Aquí puedes incluir tus estilos CSS si es necesario -->
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
    <script src="{{ asset('js/photos.js') }}"></script> <!-- Aquí enlazas tu archivo script.js -->
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 </head>
 <body>
-
+{% include 'partials/navbar.html.twig' %}
 <h1>Photos-Mauricio</h1>
 
 <table class="photos-table">

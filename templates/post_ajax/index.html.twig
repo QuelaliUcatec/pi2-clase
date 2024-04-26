@@ -9,10 +9,11 @@
    <!-- Aquí puedes incluir tus estilos CSS si es necesario -->
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
    <script src="{{ asset('js/posts.js') }}"></script> <!-- Aquí enlazas tu archivo script.js -->
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 </head>
 <body>
-
-<h1>Posts</h1>
+{% include 'partials/navbar.html.twig' %}
+<h1>Posts AJAX</h1>
 
 <table id="post-table">
    <thead>

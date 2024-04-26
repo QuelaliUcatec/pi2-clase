@@ -8,7 +8,7 @@ $(document).ready(function() {
             var tableBody = $('#post-table tbody');
  
             $.each(posts, function(index, post) {
-            //    tableBody.append('<tr><td>' + post.id + '</td><td>' + post.title + '</td><td>' + post.body + '</td></tr>');
+                tableBody.append('<tr><td>' + post.id + '</td><td>' + post.title + '</td><td>' + post.body + '</td></tr>');
                 console.log({post});
             });
         }
